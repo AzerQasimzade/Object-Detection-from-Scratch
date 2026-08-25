@@ -1,0 +1,17 @@
+{
+  "model": "CarDetectorV8",
+  "input_size": 320,
+  "grid_size": 20,
+  "adapter": "NONE",
+  "xy_parameterization": "CELL-RELATIVE",
+  "wh_parameterization": "DIRECT-NORMALIZED",
+  "localization_weight": 2.0,
+  "positive_confidence_weight": 3.0,
+  "negative_confidence_weight": 0.75,
+  "confidence_threshold": 0.25,
+  "nms_iou": 0.3,
+  "match_iou": 0.3,
+  "alternative_model": "B_IOU",
+  "alternative_test_f1": 0.449,
+  "final_test_f1": 0.507
+}
